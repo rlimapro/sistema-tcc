@@ -1,0 +1,79 @@
+[
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "05290009",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-04T00:00:00",
+"valor_liquidado": 1750.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "07040016",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-05T00:00:00",
+"valor_liquidado": 15036.85,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "07060006",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-07T00:00:00",
+"valor_liquidado": 18598.75,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "07130012",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-17T00:00:00",
+"valor_liquidado": 2130.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "07130039",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-28T00:00:00",
+"valor_liquidado": 203.8,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "07200040",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-20T00:00:00",
+"valor_liquidado": 19141.57,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201707,
+"codigo_orgao": "06",
+"numero_empenho": "07200041",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2017-07-20T00:00:00",
+"valor_liquidado": 16221.67,
+"status_estornado": false
+}
+]

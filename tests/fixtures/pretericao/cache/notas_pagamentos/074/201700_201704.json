@@ -1,0 +1,98 @@
+[
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "01110006",
+"numero_sub_empenho": "003",
+"numero_nota_pagamento": "0426004",
+"data_nota_pagamento": "2017-04-26T00:00:00",
+"valor_nota_pagamento": 25226.67,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "01110006",
+"numero_sub_empenho": "004",
+"numero_nota_pagamento": "0426005",
+"data_nota_pagamento": "2017-04-26T00:00:00",
+"valor_nota_pagamento": 7127.9,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "01110007",
+"numero_sub_empenho": "004",
+"numero_nota_pagamento": "0403005",
+"data_nota_pagamento": "2017-04-03T00:00:00",
+"valor_nota_pagamento": 11985.28,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "01110007",
+"numero_sub_empenho": "005",
+"numero_nota_pagamento": "0426006",
+"data_nota_pagamento": "2017-04-26T00:00:00",
+"valor_nota_pagamento": 35078.76,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "04200003",
+"numero_sub_empenho": "000",
+"numero_nota_pagamento": "0420073",
+"data_nota_pagamento": "2017-04-20T00:00:00",
+"valor_nota_pagamento": 28307.93,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "04200004",
+"numero_sub_empenho": "000",
+"numero_nota_pagamento": "0420074",
+"data_nota_pagamento": "2017-04-20T00:00:00",
+"valor_nota_pagamento": 12166.25,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "04200005",
+"numero_sub_empenho": "000",
+"numero_nota_pagamento": "0420075",
+"data_nota_pagamento": "2017-04-20T00:00:00",
+"valor_nota_pagamento": 17519.4,
+"estado_de_estornado": 0
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201704,
+"codigo_orgao": "06",
+"numero_empenho": "04200006",
+"numero_sub_empenho": "000",
+"numero_nota_pagamento": "0420076",
+"data_nota_pagamento": "2017-04-20T00:00:00",
+"valor_nota_pagamento": 24008.08,
+"estado_de_estornado": 0
+}
+]

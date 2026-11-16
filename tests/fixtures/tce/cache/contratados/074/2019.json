@@ -1,0 +1,62 @@
+[
+ {
+  "codigo_municipio": "074",
+  "data_contrato": "2019-01-18T00:00:00",
+  "numero_contrato": "2019.01.18.07",
+  "numero_documento_negociante": "09327257000127",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "I.G BEZERRA COMBUSTIVEIS",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "IGUATU",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 201901,
+  "cpf_gestor": "CIFRADO=="
+ },
+ {
+  "codigo_municipio": "074",
+  "data_contrato": "2019-03-01T00:00:00",
+  "numero_contrato": "0002",
+  "numero_documento_negociante": "09327257000127",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "I.G BEZERRA COMBUSTIVEIS",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "IGUATU",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 201903,
+  "cpf_gestor": "CIFRADO=="
+ },
+ {
+  "codigo_municipio": "074",
+  "data_contrato": "2019-04-05T00:00:00",
+  "numero_contrato": "03",
+  "numero_documento_negociante": "09327257000127",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "I.G BEZERRA COMBUSTIVEIS",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "IGUATU",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 201904,
+  "cpf_gestor": "CIFRADO=="
+ },
+ {
+  "codigo_municipio": "074",
+  "data_contrato": "2019-05-02T00:00:00",
+  "numero_contrato": "060004",
+  "numero_documento_negociante": "09327257000127",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "I.G BEZERRA COMBUSTIVEIS",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "IGUATU",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 201905,
+  "cpf_gestor": "CIFRADO=="
+ }
+]

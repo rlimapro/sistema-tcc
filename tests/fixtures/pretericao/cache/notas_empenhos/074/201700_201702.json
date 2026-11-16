@@ -1,0 +1,58 @@
+[
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201702,
+"codigo_orgao": "06",
+"numero_empenho": "02200012",
+"codigo_elemento_despesa": "44905200",
+"cd_subelem_desp": "00",
+"tipo_fonte": "2",
+"codigo_fonte": "03       ",
+"numero_documento_negociante": "41426966002620",
+"codigo_tipo_negociante": "1",
+"data_emissao_empenho": "2017-02-20T00:00:00"
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201702,
+"codigo_orgao": "06",
+"numero_empenho": "02200011",
+"codigo_elemento_despesa": "44905200",
+"cd_subelem_desp": "00",
+"tipo_fonte": "2",
+"codigo_fonte": "03       ",
+"numero_documento_negociante": "41426966002620",
+"codigo_tipo_negociante": "1",
+"data_emissao_empenho": "2017-02-20T00:00:00"
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201702,
+"codigo_orgao": "06",
+"numero_empenho": "02200005",
+"codigo_elemento_despesa": "33903000",
+"cd_subelem_desp": "00",
+"tipo_fonte": "2",
+"codigo_fonte": "03       ",
+"numero_documento_negociante": "63391445000160",
+"codigo_tipo_negociante": "1",
+"data_emissao_empenho": "2017-02-20T00:00:00"
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201702,
+"codigo_orgao": "06",
+"numero_empenho": "02010009",
+"codigo_elemento_despesa": "33903000",
+"cd_subelem_desp": "00",
+"tipo_fonte": "2",
+"codigo_fonte": "03       ",
+"numero_documento_negociante": "97472930000180",
+"codigo_tipo_negociante": "1",
+"data_emissao_empenho": "2017-02-01T00:00:00"
+}
+]

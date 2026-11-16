@@ -1,0 +1,62 @@
+[
+ {
+  "codigo_municipio": "087",
+  "data_contrato": "2021-01-05T00:00:00",
+  "numero_contrato": "20210001",
+  "numero_documento_negociante": "20014873000160",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "PROJET CONSTRUCOES COMERCIO E TRANSPORTE",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "Caninde",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202101,
+  "cpf_gestor": "CIFRADO=="
+ },
+ {
+  "codigo_municipio": "087",
+  "data_contrato": "2021-01-05T00:00:00",
+  "numero_contrato": "20210002",
+  "numero_documento_negociante": "07742263000115",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "CAUIPE CONSTRUCOES E EMPREENDIMENTOS EIR",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "Fortaleza",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202101,
+  "cpf_gestor": "CIFRADO=="
+ },
+ {
+  "codigo_municipio": "087",
+  "data_contrato": "2021-01-28T00:00:00",
+  "numero_contrato": "2018008406",
+  "numero_documento_negociante": "14800860000114",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "CARLOS EDUARDO MACIEL PEREIRA - ADVOGADO",
+  "endereco_negociante": "********",
+  "fone_negociante": "********",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "Fortaleza",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202102,
+  "cpf_gestor": "CIFRADO=="
+ },
+ {
+  "codigo_municipio": "087",
+  "data_contrato": "2021-04-20T00:00:00",
+  "numero_contrato": "20210104",
+  "numero_documento_negociante": "AAAAAAAAAAAAAAAAAAAAAA==",
+  "codigo_tipo_negociante": "2",
+  "nome_negociante": "PESSOA FISICA ANONIMIZADA",
+  "endereco_negociante": "RUA ANONIMIZADA, 1",
+  "fone_negociante": "85999999999",
+  "cep_negociante": "********",
+  "nome_municipio_negociante": "Itatira",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202104,
+  "cpf_gestor": "CIFRADO=="
+ }
+]

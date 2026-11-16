@@ -1,0 +1,23 @@
+[
+ {
+  "codigo_municipio": "087",
+  "cpf_gestor": "CIFRADO==",
+  "data_contrato": "2018-08-01T00:00:00",
+  "numero_contrato": "20180084",
+  "tipo_contrato": "O",
+  "modalide_contrato": "OR",
+  "numero_contrato_original": "",
+  "data_contrato_original": null,
+  "data_inicio_vigencia_contrato": "2018-08-01T00:00:00",
+  "data_fim_vigencia_contrato": "2018-12-31T00:00:00",
+  "descricao_objeto_contrato": "CONTRATACAO DE SERVICOS DE ASSESSORIA JURIDICA JUNTO AO GABINETE DO PREFEITO E FUNDO MUNICIPAL DE SAUDE, DESTINADOS A ATENDER AS NECESSIDADES DO MUNICIPIO",
+  "valor_total_contrato": 25000.0,
+  "data_referencia_doc": 201808,
+  "data_autuacao_processo_adm": null,
+  "numero_processo_adm": null,
+  "nome_fiscal_contrato": null,
+  "numero_id_contrato_pncp": null,
+  "cpf_gestor_original": null,
+  "cpf_fiscal_contrato": null
+ }
+]

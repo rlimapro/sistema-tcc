@@ -1,0 +1,44 @@
+[
+ {
+  "codigo_municipio": "170",
+  "data_realizacao_licitacao": "2009-02-04T00:00:00",
+  "numero_licitacao": "2009.01.20.2",
+  "numero_documento_negociante": "01069416000129",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "LUCIO JOSE DE MENEZES NETO ME",
+  "endereco_negociante": "AV MONSENHOR TABOSA 1001 LOJA N 05 CENTRO,FORTALEZA,CE, CEP 60165011",
+  "fone_negociante": "8533511606",
+  "cep_negociante": "60165011",
+  "nome_municipio_negociante": "FORTALEZA",
+  "codigo_uf": "CE",
+  "data_referencia_doc": null
+ },
+ {
+  "codigo_municipio": "170",
+  "data_realizacao_licitacao": "2009-02-04T00:00:00",
+  "numero_licitacao": "2009.01.20.2",
+  "numero_documento_negociante": "05018507000196",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "DANIEL COSTA MENEZES ME",
+  "endereco_negociante": "AV MONSENHOR TABOSA 1001 LOJA 05 PRAIA DE IRACEMA,FORTALEZA,CE, CEP 60165011",
+  "fone_negociante": "8533511606",
+  "cep_negociante": "60165011",
+  "nome_municipio_negociante": "FORTALEZA",
+  "codigo_uf": "CE",
+  "data_referencia_doc": null
+ },
+ {
+  "codigo_municipio": "170",
+  "data_realizacao_licitacao": "2009-02-04T00:00:00",
+  "numero_licitacao": "2009.01.20.2",
+  "numero_documento_negociante": "10276514000128",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "ESMERINO GOMES DA SILVA  ME",
+  "endereco_negociante": "AV MONSENHOR TABOSA 1001 LOJA 03 CENTRO,FORTALEZA,CE, CEP 60165010",
+  "fone_negociante": "8533511606",
+  "cep_negociante": "60165010",
+  "nome_municipio_negociante": "FORTALEZA",
+  "codigo_uf": "CE",
+  "data_referencia_doc": null
+ }
+]

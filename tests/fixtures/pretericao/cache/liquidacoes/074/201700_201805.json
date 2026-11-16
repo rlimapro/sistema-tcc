@@ -1,0 +1,68 @@
+[
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201805,
+"codigo_orgao": "06",
+"numero_empenho": "12050033",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-05-02T00:00:00",
+"valor_liquidado": 9850.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201805,
+"codigo_orgao": "06",
+"numero_empenho": "12050034",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-05-02T00:00:00",
+"valor_liquidado": 8643.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201805,
+"codigo_orgao": "06",
+"numero_empenho": "12050035",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-05-02T00:00:00",
+"valor_liquidado": 9950.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201805,
+"codigo_orgao": "06",
+"numero_empenho": "12050036",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-05-02T00:00:00",
+"valor_liquidado": 500.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201805,
+"codigo_orgao": "06",
+"numero_empenho": "12050037",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-05-02T00:00:00",
+"valor_liquidado": 826.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201805,
+"codigo_orgao": "06",
+"numero_empenho": "12050038",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-05-02T00:00:00",
+"valor_liquidado": 5700.0,
+"status_estornado": false
+}
+]

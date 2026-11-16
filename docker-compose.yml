@@ -1,0 +1,75 @@
+# Neo4j do SARC-CE v3. Portas próprias para não conflitar com o v1 (7475/7688) e o v2 (7476/7689).
+# Uso:
+#   docker compose up -d neo4j                         # banco principal: http://localhost:7484, bolt://localhost:7699
+#   docker compose --profile teste up -d neo4j-teste   # banco de teste efêmero: bolt://localhost:7700
+#   docker compose --profile bench up -d postgres-bench  # PostgreSQL do benchmark: localhost:5440
+# NEO4J_USER e NEO4J_PASSWORD vêm do .env (copie de .env.example).
+name: sarc-v3
+
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: sarc-v3-neo4j
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:7484:7474"
+      - "127.0.0.1:7699:7687"
+    environment:
+      NEO4J_AUTH: "${NEO4J_USER:-neo4j}/${NEO4J_PASSWORD:?defina NEO4J_PASSWORD no .env}"
+      NEO4J_server_memory_heap_initial__size: "1g"
+      NEO4J_server_memory_heap_max__size: "2g"
+      NEO4J_server_memory_pagecache_size: "1g"
+    volumes:
+      - neo4j-data-v3:/data
+      - neo4j-logs-v3:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u \"$${NEO4J_AUTH%%/*}\" -p \"$${NEO4J_AUTH#*/}\" 'RETURN 1' >/dev/null"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 20s
+
+  neo4j-teste:
+    image: neo4j:5.26-community
+    container_name: sarc-v3-neo4j-teste
+    profiles: ["teste"]
+    ports:
+      - "127.0.0.1:7485:7474"
+      - "127.0.0.1:7700:7687"
+    environment:
+      # Senha fixa e não secreta: o banco é efêmero (sem volume) e só serve aos testes.
+      NEO4J_AUTH: "neo4j/sarc-teste-local"
+      NEO4J_server_memory_heap_initial__size: "512m"
+      NEO4J_server_memory_heap_max__size: "1g"
+      NEO4J_server_memory_pagecache_size: "256m"
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p sarc-teste-local 'RETURN 1' >/dev/null"]
+      interval: 5s
+      timeout: 10s
+      retries: 24
+      start_period: 15s
+
+  postgres-bench:
+    image: postgres:16-alpine
+    container_name: sarc-v3-postgres-bench
+    profiles: ["bench"]
+    # Memória na mesma ordem da do Neo4j (page cache 1g), para a comparação não favorecer um lado.
+    command: ["postgres", "-c", "shared_buffers=1GB", "-c", "work_mem=64MB", "-c", "effective_cache_size=2GB"]
+    ports:
+      - "127.0.0.1:5440:5432"
+    environment:
+      # Só para o benchmark (T13), com dados públicos já exportados do grafo; sem volume.
+      POSTGRES_USER: sarc
+      POSTGRES_PASSWORD: sarc-bench-local
+      POSTGRES_DB: sarc
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sarc -d sarc"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  neo4j-data-v3:
+    name: neo4j-data-v3
+  neo4j-logs-v3:
+    name: neo4j-logs-v3

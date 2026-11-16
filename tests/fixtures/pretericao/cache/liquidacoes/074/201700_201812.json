@@ -1,0 +1,24 @@
+[
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201812,
+"codigo_orgao": "06",
+"numero_empenho": "12050029",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-12-07T00:00:00",
+"valor_liquidado": 2369.0,
+"status_estornado": false
+},
+{
+"codigo_municipio": "074",
+"exercicio_orcamento": 201700,
+"data_referencia_doc": 201812,
+"codigo_orgao": "06",
+"numero_empenho": "12050030",
+"numero_sub_empenho_liquidacao": "000",
+"data_liquidacao": "2018-12-07T00:00:00",
+"valor_liquidado": 10310.0,
+"status_estornado": false
+}
+]

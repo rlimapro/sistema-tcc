@@ -1,0 +1,44 @@
+[
+ {
+  "codigo_municipio": "087",
+  "data_realizacao_licitacao": "2024-03-26T00:00:00",
+  "numero_licitacao": "2603.01-2024-PE",
+  "numero_documento_negociante": "02288268000104",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "ASP - AUTOMACAO SERVICOS E PRODUTOS DE INFORMATICA LTDA",
+  "endereco_negociante": "RUA LAURO MAIA, 1120    FATIMA",
+  "fone_negociante": "08532543223",
+  "cep_negociante": "60055210",
+  "nome_municipio_negociante": "Fortaleza",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202404
+ },
+ {
+  "codigo_municipio": "087",
+  "data_realizacao_licitacao": "2024-03-26T00:00:00",
+  "numero_licitacao": "2603.01-2024-PE",
+  "numero_documento_negociante": "44815194000159",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "PACTUS SERVICE COMERCIO E SERVICOS LTDA",
+  "endereco_negociante": "RUA: EDMILSON ALENACR S/N    CENTRO",
+  "fone_negociante": "",
+  "cep_negociante": "62725000",
+  "nome_municipio_negociante": "Itatira",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202404
+ },
+ {
+  "codigo_municipio": "087",
+  "data_realizacao_licitacao": "2024-03-26T00:00:00",
+  "numero_licitacao": "2603.01-2024-PE",
+  "numero_documento_negociante": "63320667000191",
+  "codigo_tipo_negociante": "1",
+  "nome_negociante": "AS SISTEMAS CONSULTORIA PUBLICA LTDA",
+  "endereco_negociante": "RUA PADRE JANUARIO CAMPO, 85    PARQ MANIBURA",
+  "fone_negociante": "",
+  "cep_negociante": "60821705",
+  "nome_municipio_negociante": "Fortaleza",
+  "codigo_uf": "CE",
+  "data_referencia_doc": 202404
+ }
+]

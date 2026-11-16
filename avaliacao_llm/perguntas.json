@@ -1,0 +1,1604 @@
+[
+ {
+  "id": "C1",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "A licitação 2901.01/2021-CP da Prefeitura de Itatira tem indício de conluio entre os participantes? Se tiver, quais empresas estão envolvidas e qual é o vínculo entre elas?",
+  "referencia": "Sim, no nível principal: V E V EMPREENDIMENTOS LTDA (27.499.707/0001-40) e LINHA DO EQUADOR LOCACOES LTDA (32.490.833/0001-74), ligadas pelo mesmo endereço declarado no certame (27/01/2021).",
+  "elementos": [
+   [
+    "27499707000140",
+    "27.499.707",
+    "V E V"
+   ],
+   [
+    "32490833000174",
+    "32.490.833",
+    "LINHA DO EQUADOR"
+   ],
+   [
+    "endereço",
+    "endereco"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "C2",
+  "categoria": "conluio",
+  "ferramenta_esperada": "licitacoes_com_conluio",
+  "pergunta": "Em 2022, quais licitações de Madalena apresentaram indício de conluio no nível principal?",
+  "referencia": "Apenas a licitação 0809.01/2022 (08/09/2022), entre J.A.P.H. ILUMINACAO (11.502.581/0001-86) e SF ENGENHARIA (20.546.158/0001-79), por endereço declarado no certame. A 0310.01/2022 fica só no nível auxiliar e não deve ser listada como principal.",
+  "elementos": [
+   [
+    "0809.01/2022",
+    "0809012022"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "C3",
+  "categoria": "conluio",
+  "ferramenta_esperada": "vinculos_da_empresa",
+  "pergunta": "A empresa de CNPJ 11.502.581/0001-86 tem vínculo com outras empresas que disputaram licitações junto com ela?",
+  "referencia": "Sim: SF ENGENHARIA LTDA (20.546.158/0001-79), com quem disputou 3 certames, por endereço e telefone; um certame com alerta no nível principal (0809.01/2022) e dois com confiança temporal desconhecida.",
+  "elementos": [
+   [
+    "20546158000179",
+    "20.546.158",
+    "SF ENGENHARIA"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "C4",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "Na licitação 1308.02/2021-PE de Itatira, as empresas suspeitas já tinham vínculo societário entre si na data do certame?",
+  "referencia": "Não. O alerta principal é por endereço declarado no certame (10/08/2021). O vínculo societário (cadeia de 4 saltos) só se formou depois, com entrada em 30/07/2025, e por isso fica no nível auxiliar como vínculo posterior ao certame.",
+  "elementos": [
+   [
+    "2025",
+    "posterior",
+    "depois do certame",
+    "após o certame"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "C5",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "O pregão eletrônico SS-PE008/20 da Prefeitura de Nova Russas, de maio de 2020, para compra de EPIs e material de consumo contra a covid-19, tem indício de conluio? Quais empresas e por qual vínculo?",
+  "referencia": "Sim, no nível principal: F G COMERCIAL DE PRODUTOS HOSPITALARES LTDA (02.908.738/0001-87) e MED DONTO COMERCIO DE PRODUTOS HOSPITALARES LTDA (69.366.326/0001-33) têm sócio pessoa física em comum, com entrada em 28/12/1998, anterior ao certame (19/05/2020). É o único par ligado entre os 18 participantes.",
+  "elementos": [
+   [
+    "02908738000187",
+    "02.908.738",
+    "F G COMERCIAL"
+   ],
+   [
+    "69366326000133",
+    "69.366.326",
+    "MED DONTO"
+   ],
+   [
+    "sócio",
+    "socio",
+    "societári"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '118|SSPE00820', 5): licitação SS-PE008/20, dataRealizacao 2020-05-19, 18 participantes, 153 pares avaliados; contagens ocorrenciasPrincipal=1 e todas as outras 0; alertas = [02908738000187 x 69366326000133, socio_pf, principal, entrada_anterior, dataVinculo 1998-12-28, 2 saltos, fonte rfb]. Cobertura Nova Russas/2020: 72 de 81."
+ },
+ {
+  "id": "C6",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "Na tomada de preços TP2018.03.02.01 de Jati, para recuperação de escolas, alguma dupla de licitantes tem vínculo que configure indício de conluio na data do certame?",
+  "referencia": "Sim, um par no nível principal: ECOS EDIFICACOES CONSTRUCOES E SERVICOS LTDA (20.784.805/0001-80) e EDIFICA EDIFICACOES E CONSTRUCOES LTDA (41.577.669/0001-28), que declararam o mesmo telefone no próprio certame (02/03/2018). Outros 3 pares (TEOTONIO, RAMALHO e J 2) só se ligam por e-mail de uso amplo da Receita, sem data, e ficam no nível auxiliar, não como alerta.",
+  "elementos": [
+   [
+    "20784805000180",
+    "20.784.805",
+    "ECOS"
+   ],
+   [
+    "41577669000128",
+    "41.577.669",
+    "EDIFICA"
+   ],
+   [
+    "telefone"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '093|TP2018030201', 5): dataRealizacao 2018-03-02, 30 participantes, 435 pares; contagens ocorrenciasPrincipal=1, ocorrenciasConfiancaDesconhecida=3, demais 0. alertas = [20784805000180 x 41577669000128, telefone, principal, confirmada_no_certame, fonte tce_505, grau 2]. alertasConfiancaDesconhecida = 3 pares entre 10453927000130, 24916240000107 e 97545946000175, todos por email rfb com contatoAmplo=true (grau 239)."
+ },
+ {
+  "id": "C7",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "O pregão 2024.05.14.1-PE de Horizonte, de aquisição de equipamentos para as unidades básicas de saúde, tem indício de conluio? Se tiver, entre quais empresas e por quê?",
+  "referencia": "Sim, no nível principal: DENTEMED EQUIPAMENTOS ODONTOLOGICOS LTDA (07.897.039/0001-00) e MIAMIMED PRODUTOS ODONTOLOGICOS LTDA (38.259.748/0001-86) declararam o mesmo endereço no certame (14/05/2024). É o único par ligado entre os 17 participantes.",
+  "elementos": [
+   [
+    "07897039000100",
+    "07.897.039",
+    "DENTEMED"
+   ],
+   [
+    "38259748000186",
+    "38.259.748",
+    "MIAMIMED"
+   ],
+   [
+    "endereço",
+    "endereco"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '068|202405141PE', 5): numero 2024.05.14.1-PE, dataRealizacao 2024-05-14, 17 participantes, 136 pares; contagens ocorrenciasPrincipal=1, demais 0; alertas = [07897039000100 x 38259748000186, endereco, principal, confirmada_no_certame, tce_505, grau 4]."
+ },
+ {
+  "id": "C8",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "A licitação 0092022TPINFRA de Ipu (tomada de preços de abril de 2022 para roçagem das margens das estradas vicinais) tem indício de conluio entre os participantes?",
+  "referencia": "Não. Entre os 13 participantes (78 pares avaliados) nenhum par tem vínculo em nenhum nível: nem alerta principal, nem auxiliar, nem aproximado. A cobertura de Ipu em 2022 é boa (33 de 46 certames com 2 ou mais participantes), mas a ausência de alerta continua sendo ausência de indício, não prova de que não houve conluio.",
+  "elementos": [
+   [
+    "não há indício",
+    "nenhum indício",
+    "não tem indício",
+    "não apresenta indício",
+    "sem indício",
+    "nenhum alerta",
+    "nenhum vínculo",
+    "nenhum par",
+    "não há alerta",
+    "não foram encontrad",
+    "não encontr"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '078|0092022TPINFRA', 5): dataRealizacao 2022-04-25, 13 participantes, licitacaoDeFato=true, chaveColidida=false, paresDeParticipantesAvaliados=78; todas as contagens = 0 e as cinco listas vazias. Cobertura Ipu/2022: 33 de 46 (0,717)."
+ },
+ {
+  "id": "C9",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "A tomada de preços 2021.10.19.1 de Farias Brito, para as obras do Parque de Exposições, tem indício de conluio no nível principal?",
+  "referencia": "Não há alerta no nível principal. Há só dois pares no nível auxiliar: CRV CONSTRUCOES E SERVICOS LTDA (07.609.311/0001-00) e CHS CONSTRUCAO E SERVICOS LTDA (07.638.122/0001-57), com sócio em comum que só entrou em 25/01/2023, depois do certame (19/10/2021); e RAMALHO SERVICOS E OBRAS LTDA (24.916.240/0001-07) e J 2 CONSTRUCOES E SERVICOS LTDA (97.545.946/0001-75), que declararam no certame um telefone de uso amplo, compartilhado por muitas empresas, por isso de confiança desconhecida.",
+  "elementos": [
+   [
+    "não há alerta",
+    "nenhum alerta",
+    "não no nível principal",
+    "não há indício no nível principal",
+    "não tem indício no nível principal",
+    "auxiliar"
+   ],
+   [
+    "CRV",
+    "07.609.311",
+    "07609311000100",
+    "CHS",
+    "07.638.122",
+    "07638122000157"
+   ],
+   [
+    "2023",
+    "posterior",
+    "depois do certame",
+    "após o certame"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '055|202110191', 5): dataRealizacao 2021-10-19, 21 participantes, 210 pares; contagens ocorrenciasPrincipal=0, ocorrenciasConfiancaDesconhecida=1, ocorrenciasVinculoPosterior=1. vinculosPosterioresAoCertame = [07609311000100 x 07638122000157, socio_pf, auxiliar, entrada_posterior, dataVinculo 2023-01-25]. alertasConfiancaDesconhecida = [24916240000107 x 97545946000175, telefone tce_505 confirmada_no_certame com contatoAmplo=true (grau 305) + email rfb amplo]."
+ },
+ {
+  "id": "C10",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "No processo 02/2019/SMS/MV de Missão Velha (credenciamento de prestadores de serviços de saúde, março de 2019), há empresas participantes ligadas por sócio? Esse vínculo já existia na data do certame?",
+  "referencia": "Há dois pares, em níveis diferentes. Nível principal: IOB INSTITUTO DE OLHOS DE BARBALHA LTDA (03.068.081/0001-50) e CENTRO DE DIAGNOSTICO POR IMAGEM LTDA (41.342.817/0001-25), com sócio pessoa física em comum desde 30/03/1999, anterior ao certame (28/03/2019). Nível auxiliar: CENTRO DE MEDICINA NUCLEAR DO CARIRI LTDA (17.557.793/0001-47) e CLINICA DE ECOGRAFIA GERAL LTDA (41.342.569/0001-12), cujo sócio comum só entrou em 01/08/2019, depois do certame, e por isso não é alerta.",
+  "elementos": [
+   [
+    "03068081000150",
+    "03.068.081",
+    "IOB",
+    "OLHOS DE BARBALHA"
+   ],
+   [
+    "41342817000125",
+    "41.342.817",
+    "DIAGNOSTICO POR IMAGEM",
+    "DIAGNÓSTICO POR IMAGEM"
+   ],
+   [
+    "posterior",
+    "depois do certame",
+    "após o certame",
+    "01/08/2019",
+    "2019-08-01"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '109|022019SMSMV', 5): numero 02/2019/SMS/MV, dataRealizacao 2019-03-28, 7 participantes, 21 pares; contagens ocorrenciasPrincipal=1, ocorrenciasVinculoPosterior=1. alertas = [03068081000150 x 41342817000125, socio_pf, principal, entrada_anterior, 1999-03-30 (+ telefone rfb amplo auxiliar)]. vinculosPosterioresAoCertame = [17557793000147 x 41342569000112, socio_pf, entrada_posterior, 2019-08-01]."
+ },
+ {
+  "id": "C11",
+  "categoria": "conluio",
+  "ferramenta_esperada": "conluio_na_licitacao",
+  "pergunta": "Na tomada de preços 2300601/2022 de Marco, para obras na guarita e no entorno do Hospital Municipal Jaime Neves Osterno, a DELTACON CONSTRUCAO, LOCACAO E ENGENHARIA LTDA e a DELMAR CONSTRUCOES LTDA têm vínculo entre si?",
+  "referencia": "Só no nível aproximado: as duas declararam no certame (30/06/2022) telefones que casam apenas por forma aproximada (número cortado do mesmo jeito pela fonte), sem igualdade exata. Não é alerta do nível principal nem do auxiliar; é indício mais fraco, a conferir. A licitação não tem nenhum alerta no nível principal.",
+  "elementos": [
+   [
+    "aproximad",
+    "forma aproximada"
+   ],
+   [
+    "telefone"
+   ]
+  ],
+  "como_conferido": "ferramentas.conluio_na_licitacao(driver, '101|23006012022', 5): dataRealizacao 2022-06-30, 28 participantes, 378 pares; contagens ocorrenciasPrincipal=0, ocorrenciasConfiancaDesconhecida=2 (outros pares, por endereço rfb de uso amplo), ocorrenciasAproximado=1. vinculosAproximados = [07699728000100 DELTACON x 17803489000132 DELMAR, telefone_aproximado, nível aproximado, confirmada_no_certame, padrão igual_parcial, tce_505]."
+ },
+ {
+  "id": "C12",
+  "categoria": "conluio",
+  "ferramenta_esperada": "licitacoes_com_conluio",
+  "pergunta": "Quais licitações de Senador Pompeu realizadas em 2020 têm indício de conluio no nível principal, e entre quais empresas?",
+  "referencia": "Duas: SI-TP004/2020 (16/07/2020) e SI-TP005/2020 (27/07/2020), ambas entre B N DE FREITAS BNF ENGENHARIA UNIPESSOAL LTDA (17.274.179/0001-78) e A N DE FREITAS ANF ENGENHARIA UNIPESSOAL LTDA (28.432.179/0001-75), pelo mesmo endereço declarado no certame. As outras 11 ocorrências do ano ficam no nível auxiliar e não entram na lista principal.",
+  "elementos": [
+   [
+    "SI-TP004/2020",
+    "SITP0042020",
+    "TP004/2020",
+    "TP 004/2020"
+   ],
+   [
+    "SI-TP005/2020",
+    "SITP0052020",
+    "TP005/2020",
+    "TP 005/2020"
+   ],
+   [
+    "17274179000178",
+    "17.274.179",
+    "BNF",
+    "B N DE FREITAS"
+   ]
+  ],
+  "como_conferido": "ferramentas.licitacoes_com_conluio(driver, 'Senador Pompeu', '2020', '2020', 200, 5): contagens ocorrenciasPrincipal=2, ocorrenciasConfiancaDesconhecida=11, paresPrincipal=1; alertas = 160|SITP0042020 (2020-07-16) e 160|SITP0052020 (2020-07-27), par 17274179000178 x 28432179000175, endereco tce_505 confirmada_no_certame. Números conferidos por Cypher (l.numero = SI-TP004/2020 e SI-TP005/2020). Cobertura 2020: 37 de 58."
+ },
+ {
+  "id": "C13",
+  "categoria": "conluio",
+  "ferramenta_esperada": "licitacoes_com_conluio",
+  "pergunta": "Quantas licitações de Icapuí realizadas em 2023 apresentaram indício de conluio no nível principal?",
+  "referencia": "5 licitações (5 ocorrências, 4 pares de empresas): 2023.02.24.01, 2023.06.19.01, 2023.06.30.01, 2023.08.28.01-S e 2023.09.05.01-S. As 7 ocorrências de confiança desconhecida e as 15 de vínculo posterior ao certame são listas separadas e não entram nessa conta.",
+  "elementos": [
+   [
+    "5 licitações",
+    "cinco licitações",
+    "5 licitacoes",
+    "cinco licitacoes"
+   ]
+  ],
+  "como_conferido": "ferramentas.licitacoes_com_conluio(driver, 'Icapui', '2023', '2023', 200, 5): contagens ocorrenciasPrincipal=5, paresPrincipal=4, ocorrenciasConfiancaDesconhecida=7, ocorrenciasVinculoPosterior=15; alertas em 5 licitações distintas: 072|2023022401 (telefone), 072|2023061901 (telefone), 072|2023063001 (cadeia societária anterior, 2023-05-08), 072|2023082801S e 072|2023090501S (telefone, MULTI COMMERCE x FRANCILENE MOURA DE LIMA). Cobertura 2023: 58 de 69."
+ },
+ {
+  "id": "C14",
+  "categoria": "conluio",
+  "ferramenta_esperada": "vinculos_da_empresa",
+  "pergunta": "A CONSTRUTORA MORAES LTDA, CNPJ 33.278.617/0001-22, disputou licitações com empresas ligadas a ela? Quais, e em quantos certames houve alerta?",
+  "referencia": "Sim, com duas empresas, ambas pelo endereço: EPYO CONSTRUCOES & SERVICOS LTDA (48.965.538/0001-67), 27 certames juntos, 9 com alerta no nível principal e 18 de confiança desconhecida; e CONSTRUWATT SOLUCOES CIVIL E ELETRICAS LTDA (57.496.974/0001-25), 18 certames juntos, 6 com alerta principal e 12 de confiança desconhecida. Os certames são de São Benedito, Itatira, Marco, Jaguaribara e Piquet Carneiro.",
+  "elementos": [
+   [
+    "48965538000167",
+    "48.965.538",
+    "EPYO"
+   ],
+   [
+    "57496974000125",
+    "57.496.974",
+    "CONSTRUWATT"
+   ],
+   [
+    "endereço",
+    "endereco"
+   ]
+  ],
+  "como_conferido": "ferramentas.vinculos_da_empresa(driver, '33278617000122', 200, 5): empresasRelacionadasQueDisputaramJunto = [48965538000167 EPYO: certamesJuntos 27, certamesComAlerta 9, certamesConfiancaDesconhecida 18, tipos [endereco]; 57496974000125 CONSTRUWATT: certamesJuntos 18, certamesComAlerta 6, certamesConfiancaDesconhecida 12, tipos [endereco, endereco_aproximado]]. contagens ocorrenciasPrincipal=15, paresPrincipal=2. Municípios das ocorrências: 087, 156, 101, 089, 137."
+ },
+ {
+  "id": "C15",
+  "categoria": "conluio",
+  "ferramenta_esperada": "vinculos_da_empresa",
+  "pergunta": "A SERV LOK SERVICOS E LOCACOES LTDA (CNPJ 19.007.717/0001-93) e a ABREU CONSTRUCOES E LOCACOES LTDA (CNPJ 32.193.868/0001-41) já eram ligadas por sócio quando disputaram licitações juntas?",
+  "referencia": "Não. As duas disputaram 74 certames juntas, de 12/02/2019 a 23/06/2025, em dezenas de municípios, mas o sócio pessoa física em comum só entrou em 16/07/2025, depois de todos eles: 73 certames ficam como vínculo posterior ao certame e 1 (Granjeiro, 11/09/2020) como confiança desconhecida, por telefone de uso amplo declarado no certame. Nenhum certame entre as duas tem alerta no nível principal.",
+  "elementos": [
+   [
+    "2025",
+    "posterior",
+    "depois",
+    "após"
+   ],
+   [
+    "74"
+   ]
+  ],
+  "como_conferido": "ferramentas.vinculos_da_empresa(driver, '19007717000193', 200, 5): item 32193868000141 ABREU: certamesJuntos 74, certamesComAlerta 0, certamesConfiancaDesconhecida 1, certamesVinculoPosterior 73, tipos [socio_pf, telefone]. Todas as ocorrências do par têm socio_pf com dataVinculo 2025-07-16; datas dos certames de 2019-02-12 a 2025-06-23; a desconhecida é 062|110901202003 (2020-09-11), telefone tce_505 com contatoAmplo=true (grau 28). (A SERV LOK tem um único alerta principal, com outra empresa, J2A, em 2026.)"
+ },
+ {
+  "id": "C16",
+  "categoria": "conluio",
+  "ferramenta_esperada": "cobertura_dos_dados",
+  "pergunta": "Não apareceu nenhum indício de conluio nas licitações de Nova Olinda em 2023. Os dados permitem concluir que não houve conluio no município nesse ano?",
+  "referencia": "Não. Em 2023 Nova Olinda tem 34 certames de fato e nenhum (0 de 34) com 2 ou mais empresas participantes registradas: o TCE-CE registrou só o vencedor, e a coparticipação, portanto o conluio, não é observável. A ausência de alerta ali é falta de dado, não prova de ausência de conluio.",
+  "elementos": [
+   [
+    "34"
+   ],
+   [
+    "só o vencedor",
+    "apenas o vencedor",
+    "somente o vencedor",
+    "não é observável",
+    "não é possível observar",
+    "falta de dado",
+    "não prova",
+    "não permite concluir",
+    "não permitem concluir",
+    "sem poder de detecção"
+   ]
+  ],
+  "como_conferido": "ferramentas.cobertura_dos_dados(driver, 'Nova Olinda', None, None): 117/2023 certamesDeFato=34, com2OuMaisParticipantes=0, proporcao 0,0 (2022: 2 de 30; 2024: 2 de 27). ferramentas.licitacoes_com_conluio(driver, 'Nova Olinda', '2023', '2023', 200, 5): todas as contagens 0, paresDeParticipantesAvaliados=0, licitacoesPorSituacao avaliada=34."
+ },
+ {
+  "id": "A1",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 2090651 de Morada Nova, de 11/11/2019, ultrapassou o limite legal de acréscimos?",
+  "referencia": "Sim, nível principal: limite de 25% (Lei 8.666/1993, art. 65, § 1º) e taxa de acréscimo isolada de 65,47% sobre o valor original de R$ 1.938.028,53.",
+  "elementos": [
+   [
+    "65,4",
+    "65.4",
+    "65,5",
+    "65.5"
+   ],
+   [
+    "25%",
+    "25 %"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (aditivacao_do_contrato('113|2090651|2019-11-11'): nivel=principal, limite_25, taxaAcrescimo=0,65469, valorOriginal=1938028,53)"
+ },
+ {
+  "id": "A2",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "contratos_com_aditivacao",
+  "pergunta": "Quantos contratos de Quixadá estão com aditivação acima do limite legal no nível principal?",
+  "referencia": "72 contratos no nível principal.",
+  "elementos": [
+   [
+    "72"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (contratos_com_aditivacao('Quixadá'): contagens.contratosPrincipal=72)"
+ },
+ {
+  "id": "A3",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_fornecedor",
+  "pergunta": "A empresa LIMPAX, CNPJ 07.270.402/0001-55, tem contratos com aditivação acima do limite legal? Quais?",
+  "referencia": "Sim, um contrato no nível principal: 20110143 de Morrinhos (01/04/2011), com taxa isolada de 90,3%. Outros 9 ficam no nível auxiliar (7 só na taxa ampla).",
+  "elementos": [
+   [
+    "20110143"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (aditivacao_do_fornecedor('07270402000155'): principal=1 [115|20110143|2011-04-01, taxa 0,9033]; auxiliar so_na_ampla=7, aa_maior_que_original=1, limite_indefinido=1)"
+ },
+ {
+  "id": "A4",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20130479 de Acopiara, de 12/08/2013, teve aditivação acima do limite legal?",
+  "referencia": "Não no nível principal: acréscimo isolado de 0%. Fica no nível auxiliar porque estoura só na taxa ampla (600%), formada por aditivos que estendem a vigência (renovações).",
+  "elementos": [
+   [
+    "auxiliar",
+    "ampla",
+    "renova"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (aditivacao_do_contrato('005|20130479|2013-08-12'): nivel=auxiliar, motivo=so_na_ampla, taxaAcrescimo=0, taxaAmpla=6,0)"
+ },
+ {
+  "id": "A5",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20107011 de Limoeiro do Norte, assinado em 04/01/2010 com a ELETROVALE para material do SAAE, recebeu acréscimos acima do limite legal?",
+  "referencia": "Sim, nível principal: limite de 25% (Lei 8.666/1993, art. 65, § 1º) e taxa de acréscimo isolada de 51,01% (aditivo de R$ 23.399,60 em 01/09/2010 sobre o original de R$ 45.870,74), excesso de cerca de R$ 11.931,91 acima do limite.",
+  "elementos": [
+   [
+    "51,0",
+    "51.0",
+    "51%"
+   ],
+   [
+    "25%",
+    "25 %"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('097|20107011|2010-01-04'): nivel=principal, limite_25, taxaAcrescimo=0,51012, taxaAmpla=0,51012, valorOriginal=45870,74, 1 aditivo AA 23399,60 (2010-09-01, não estende vigência), excessoReais=11931,91. Número único no município."
+ },
+ {
+  "id": "A6",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_fornecedor",
+  "pergunta": "Quantos contratos da COMERCIAL CANAÃ LTDA (CNPJ 43.773.533/0001-19) estão com acréscimos acima do limite legal no nível principal?",
+  "referencia": "16 contratos no nível principal (entre 299 contratos originais da empresa). Outros 2 ficam só no nível auxiliar (estouram só na taxa ampla), 37 estão dentro do limite e 5 foram excluídos por aditivo de acréscimo sem valor na fonte; as contagens não se somam.",
+  "elementos": [
+   [
+    "16"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_fornecedor('43773533000119'): contratosOriginaisDoFornecedor=299; contagens: contratosPrincipal=16, auxiliar so_na_ampla=2, dentro=37, excluidos acrescimo_nao_quantificado=5. Principais em Tauá (8), 183 (5), 154, 037, 170."
+ },
+ {
+  "id": "A7",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20220510004 de Canindé, de 10/05/2022, para reforma e ampliação da escola CEI Laura Magalhães, ultrapassou o limite legal de acréscimos?",
+  "referencia": "Não. Por ser reforma de edificação escolar, o limite é de 50% (não 25%); a taxa de acréscimo isolada é de 48,96% (aditivo de R$ 432.946,38 sobre o original de R$ 884.287,67), acima de 25% mas dentro dos 50%.",
+  "elementos": [
+   [
+    "48,9",
+    "48.9",
+    "49%",
+    "49,0"
+   ],
+   [
+    "50%",
+    "50 %"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('034|20220510004|2022-05-10'): nivel=dentro, limiteAplicavel=limite_50, teto=0,5, taxaAcrescimo=0,48960, aditivos: AA 432946,38 (2022-08-29) + AP (prazo, fora do numerador). Número único no município."
+ },
+ {
+  "id": "A8",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20180375 de Baturité, de 25/07/2018, para reforma da Escola Municipal Estevão Alves da Rocha, teve acréscimos acima do limite legal?",
+  "referencia": "Sim, nível principal, mesmo com o limite de 50% aplicável a reforma de edificação: taxa de acréscimo isolada de 77,96% (aditivo de R$ 31.184,93 sobre o original de R$ 40.000,00), excesso de R$ 11.184,93 acima do limite.",
+  "elementos": [
+   [
+    "77,9",
+    "77.9",
+    "78%",
+    "78,0"
+   ],
+   [
+    "50%",
+    "50 %"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('027|20180375|2018-07-25'): nivel=principal, limite_50, taxaAcrescimo=0,77962, excessoReais=11184,93, 1 aditivo AA (2018-07-25). Número único no município."
+ },
+ {
+  "id": "A9",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20160509 de Russas, de 14/06/2016, para reforma de quadras poliesportivas em escolas, teve aditivação acima do limite legal?",
+  "referencia": "Não no nível principal: a taxa de acréscimo isolada é 0%. O único aditivo (R$ 93.313,48, 100% do original) foi lançado como acréscimo mas prorroga a vigência por mais 7 meses, por isso entra só na taxa ampla (100%), acima do limite de 50% (reforma de edificação). Fica no nível auxiliar, só na taxa ampla (provável renovação).",
+  "elementos": [
+   [
+    "auxiliar",
+    "ampla",
+    "prorroga",
+    "vigência",
+    "vigencia",
+    "renova"
+   ],
+   [
+    "50%",
+    "50 %"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('150|20160509|2016-06-14'): nivel=auxiliar, motivo=so_na_ampla, limite_50, taxaAcrescimo=0, taxaAmpla=1,0; aditivo AA 93313,48 (2016-12-30) estendeVigencia=true, entraEm=ampla. Número único no município."
+ },
+ {
+  "id": "A10",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20217001 de Iguatu, de 05/01/2021, de aquisição de material elétrico para o SAAE, ultrapassou o limite legal de acréscimos?",
+  "referencia": "Não no nível principal. A taxa de acréscimo é de 62,47% (aditivo de R$ 121.343,82 em 21/05/2021 sobre R$ 194.235,37), acima de 25%, mas o aditivo é de realinhamento de preços (reajuste/reequilíbrio, que não é acréscimo de escopo); sem ele a taxa seria 0%. Fica no nível auxiliar, a revisar, por depender de reajuste.",
+  "elementos": [
+   [
+    "62,4",
+    "62.4",
+    "62,5",
+    "62.5"
+   ],
+   [
+    "reajuste",
+    "realinhamento",
+    "reequilíbrio",
+    "reequilibrio"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('074|20217001|2021-01-05'): nivel=auxiliar, motivo=depende_de_reajuste, limite_25, taxaAcrescimo=0,62473, taxaSemReajuste=0; aditivo AA mencionaReajuste=true ('realinhamento de precos'). Número único no município."
+ },
+ {
+  "id": "A11",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 17102023001 de Crateús, de 17/10/2023, para construção de uma passagem molhada na localidade de Bom Rosário, teve acréscimos acima do limite legal?",
+  "referencia": "Fica no nível auxiliar, não no principal: a taxa de acréscimo é de 119,80% (limite de 25%), mas vem de um único aditivo (R$ 137.273,03, em 11/12/2023) maior que o próprio valor original (R$ 114.582,79); por isso vai para revisão, em vez de alerta principal.",
+  "elementos": [
+   [
+    "119,8",
+    "119.8",
+    "120%"
+   ],
+   [
+    "auxiliar",
+    "maior que o",
+    "supera o",
+    "excede o valor original",
+    "revis"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('048|17102023001|2023-10-17'): nivel=auxiliar, motivo=aa_maior_que_original, limite_25, taxaAcrescimo=1,19802, 1 aditivo AA 137273,03 > original 114582,79. Fornecedor MYLANO (49.671.963/0001-06). Número único no município."
+ },
+ {
+  "id": "A12",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20210728.001 de Russas, de 28/07/2021, de reforma com recomposição de pavimentação e drenagem na Travessa Tabelião Santiago, teve acréscimos acima do limite legal?",
+  "referencia": "Não há como afirmar no nível principal: a taxa de acréscimo isolada é de 49,35% (R$ 65.103,68 sobre R$ 131.916,60), acima de 25% e abaixo de 50%, e o objeto fala em reforma sem edifício ou equipamento, então o limite aplicável (25% ou 50%) fica indefinido. Vai para o nível auxiliar, a revisar.",
+  "elementos": [
+   [
+    "49,3",
+    "49.3",
+    "49,4",
+    "49.4"
+   ],
+   [
+    "indefinid",
+    "auxiliar",
+    "revis"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('150|20210728.001|2021-07-28'): nivel=auxiliar, motivo=limite_indefinido, limiteAplicavel=indefinido, teto=None, taxaAcrescimo=0,49352. Número único no município."
+ },
+ {
+  "id": "A13",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 20130539 de Aracati, de 12/03/2013, de gêneros alimentícios para a Secretaria do Trabalho e Ação Social, teve acréscimos acima do limite legal?",
+  "referencia": "Não. Está dentro do limite de 25%: taxa de acréscimo de 15,10% (aditivo de R$ 5.022,80 sobre o original de R$ 33.268,85).",
+  "elementos": [
+   [
+    "15,1",
+    "15.1"
+   ],
+   [
+    "dentro",
+    "não ultrapass",
+    "nao ultrapass",
+    "abaixo",
+    "não excede",
+    "não passou",
+    "não houve"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('014|20130539|2013-03-12'): nivel=dentro, limite_25, taxaAcrescimo=0,15098, 1 aditivo AA 5022,80. Número único no município."
+ },
+ {
+  "id": "A14",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_contrato",
+  "pergunta": "O contrato 0002/2020-SESEC de Sobral, de 21/01/2020, de gerenciamento da frota, ficou dentro do limite legal de acréscimos?",
+  "referencia": "Não é possível dizer: o contrato foi excluído da análise porque o aditivo de acréscimo (16/04/2020) não tem valor na fonte (o texto fala em acréscimo de 25%, mas o SIM não traz o valor). Excluído por falta de dado não é o mesmo que dentro do limite.",
+  "elementos": [
+   [
+    "sem valor",
+    "não tem valor",
+    "não há valor",
+    "não traz",
+    "não informa",
+    "não quantific",
+    "ausente",
+    "excluíd",
+    "excluid",
+    "não é possível",
+    "não dá para"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_contrato('162|0002/2020-SESEC|2020-01-21'): nivel=excluido, motivo=acrescimo_nao_quantificado, valorOriginal=57432; único aditivo AA (2020-04-16) valor 0, objeto 'ACRÉSCIMO DE 25 VINTE E CINCO POR CENTO'. Número único no município."
+ },
+ {
+  "id": "A15",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "contratos_com_aditivacao",
+  "pergunta": "Quantos contratos de Juazeiro do Norte assinados em 2021 estão com acréscimos acima do limite legal no nível principal?",
+  "referencia": "57 contratos no nível principal (contratos originais de 2021). À parte, no nível auxiliar: 21 dependem de reajuste, 65 estouram só na taxa ampla e 1 tem aditivo maior que o original; 77 estão dentro do limite. As listas não se somam.",
+  "elementos": [
+   [
+    "57"
+   ]
+  ],
+  "como_conferido": "contratos_com_aditivacao('Juazeiro do Norte', '2021', '2021') e ('094', '2021-01-01', '2021-12-31'), mesmos números: contratosPrincipal=57, auxiliar depende_de_reajuste=21, so_na_ampla=65, aa_maior_que_original=1, dentro=77, excluidos=0. Lista cortada por caracteres; usar contagens."
+ },
+ {
+  "id": "A16",
+  "categoria": "aditivação",
+  "ferramenta_esperada": "aditivacao_do_fornecedor",
+  "pergunta": "A HIDROPLAST INDÚSTRIA E COMÉRCIO LTDA (CNPJ 69.939.239/0001-28) tem contratos com acréscimos acima do limite legal?",
+  "referencia": "Nenhum no nível principal. Dois contratos ficam no nível auxiliar, a revisar, porque o acréscimo é reajuste/reequilíbrio de preços: 26.23.02-PE de Itapipoca (10/03/2026, taxa 61,33%) e 049/25-SAAE de Sobral (16/12/2025, taxa 39,22%). Dos 54 contratos originais da empresa, 2 estão dentro do limite e 1 foi excluído por valor divergente na fonte.",
+  "elementos": [
+   [
+    "26.23.02"
+   ],
+   [
+    "049/25"
+   ],
+   [
+    "reajuste",
+    "reequilíbrio",
+    "reequilibrio",
+    "realinhamento"
+   ]
+  ],
+  "como_conferido": "aditivacao_do_fornecedor('69939239000128'): contratosOriginaisDoFornecedor=54; principal=0; auxiliar depende_de_reajuste=2 ['084|26.23.02-PE|2026-03-10' taxa 0,6133, '162|049/25-SAAE|2025-12-16' taxa 0,3922, ambos taxaSemReajuste=0]; dentro=2; excluidos valor_divergente=1."
+ },
+ {
+  "id": "P1",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Quais são os cinco credores mais preteridos na ordem cronológica de pagamentos em Maranguape?",
+  "referencia": "1º DIOTEC (00.087.877/0001-61), 2º COMERCIAL DMS (40.498.101/0001-59), 3º CRIL EMPREENDIMENTO AMBIENTAL (09.234.399/0001-40), 4º ESCOLA CEARENSE DE OFTALMOLOGIA (07.050.353/0001-45), 5º 7SERV GESTAO DE BENEFICIOS (13.858.769/0001-97), janela 2025+3.",
+  "elementos": [
+   [
+    "00087877000161",
+    "00.087.877",
+    "DIOTEC"
+   ],
+   [
+    "40498101000159",
+    "40.498.101",
+    "DMS"
+   ],
+   [
+    "09234399000140",
+    "09.234.399",
+    "CRIL"
+   ],
+   [
+    "07050353000145",
+    "07.050.353",
+    "OFTALMOLOGIA"
+   ],
+   [
+    "13858769000197",
+    "13.858.769",
+    "7SERV"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "P2",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Em que posição a LOCMED Hospitalar (CNPJ 04.238.951/0001-54) aparece no ranking de credores preteridos de Maranguape?",
+  "referencia": "7ª posição entre 245 credores acima do piso (janela 2025+3).",
+  "elementos": [
+   [
+    "7ª",
+    "7º",
+    "sétim",
+    "posição 7"
+   ],
+   [
+    "245"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "P3",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Qual a proporção de pagamentos feitos fora da ordem cronológica em Iguatu?",
+  "referencia": "83,52% dos pagamentos (janela 2025+3, 38.691 obrigações).",
+  "elementos": [
+   [
+    "83,5",
+    "83.5",
+    "84%"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "P4",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "A preterição de pagamentos foi calculada para Iguatu no exercício de 2018?",
+  "referencia": "Não. Para Iguatu só existe a janela 2025+3. A ausência do cálculo não significa ausência de preterição (não calculado é diferente de zero).",
+  "elementos": [
+   [
+    "não foi calculad",
+    "não está calculad",
+    "não há cálculo",
+    "apenas a janela",
+    "somente a janela",
+    "só a janela",
+    "2025+3"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "P5",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Quais são os três credores mais preteridos na ordem cronológica de pagamentos da Prefeitura de Sobral?",
+  "referencia": "1º BANCO BRADESCO S.A. (60.746.948/0001-12), 2º COMPANHIA ENERGETICA DO CEARA (07.047.251/0001-70), 3º BANCO DO BRASIL SA (00.000.000/4251-09), janela 2025+3, entre 617 credores acima do piso.",
+  "elementos": [
+   [
+    "60746948000112",
+    "60.746.948",
+    "BRADESCO"
+   ],
+   [
+    "07047251000170",
+    "07.047.251",
+    "ENERGETICA",
+    "ENERGÉTICA",
+    "COELCE",
+    "ENEL"
+   ],
+   [
+    "00000000425109",
+    "00.000.000/4251",
+    "BANCO DO BRASIL"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Sobral', None, 3): janela 2025+3, rankingPrincipal 1) 60746948000112 ultrapassagensPagas=40213, 2) 07047251000170 =18213, 3) 00000000425109 =16080; 4º tem 15779 (sem empate); credoresAcimaDoPiso=617."
+ },
+ {
+  "id": "P6",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Em que posição a ITARGET TECNOLOGIA DA INFORMACAO LTDA (CNPJ 02.130.122/0001-28) aparece no ranking de credores preteridos de Juazeiro do Norte?",
+  "referencia": "4ª posição entre 459 credores acima do piso (janela 2025+3), com 7.607 ultrapassagens em obrigações pagas. A empresa é ME (porte que a lei permite priorizar).",
+  "elementos": [
+   [
+    "4ª",
+    "4º",
+    "quarta",
+    "quarto",
+    "posição 4"
+   ],
+   [
+    "459"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Juazeiro do Norte', None, 5) e pretericao_no_municipio(limite=100000): posicaoPrincipal=4, ultrapassagensPagas=7607 (3º tem 13827, 5º tem 7579: sem empate), credoresAcimaDoPiso=459. pretericao_do_credor devolve 383 filas em 63 municípios (sem posição): por isso a ferramenta esperada é o ranking do município."
+ },
+ {
+  "id": "P7",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Em Eusébio, que parcela das obrigações foi ultrapassada na fila de pagamento e que parcela dos pagamentos foi feita fora da ordem cronológica?",
+  "referencia": "60,78% das obrigações ultrapassadas (21.157 de 34.811) e 91,57% dos pagamentos fora da ordem (27.333 de 29.849 pagas), janela 2025+3.",
+  "elementos": [
+   [
+    "60,78",
+    "60.78",
+    "60,8",
+    "60.8",
+    "61%"
+   ],
+   [
+    "91,57",
+    "91.57",
+    "91,6",
+    "91.6",
+    "92%"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Eusébio', None, 20)['dados']['resumo']: nObrigacoes=34811, nUltrapassadas=21157, fracaoObrigacoesUltrapassadas=0.6078; nPagas=29849, nPagamentosForaDeOrdem=27333, fracaoPagamentosForaDeOrdem=0.9157."
+ },
+ {
+  "id": "P8",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Entre Crato e Juazeiro do Norte, qual município tem a maior proporção de obrigações ultrapassadas na fila de pagamentos?",
+  "referencia": "Juazeiro do Norte: 45,57% das obrigações ultrapassadas (22.367 de 49.081), contra 38,71% em Crato (17.464 de 45.111), ambos na janela 2025+3.",
+  "elementos": [
+   [
+    "Juazeiro"
+   ],
+   [
+    "45,57",
+    "45.57",
+    "45,6",
+    "45.6",
+    "46%"
+   ],
+   [
+    "38,71",
+    "38.71",
+    "38,7",
+    "38.7",
+    "39%"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos para 'Crato' (resumo: nUltrapassadas=17464, nObrigacoes=45111, fracao=0.3871) e 'Juazeiro do Norte' (nUltrapassadas=22367, nObrigacoes=49081, fracao=0.4557)."
+ },
+ {
+  "id": "P9",
+  "categoria": "preterição",
+  "ferramenta_esperada": "pretericao_do_credor",
+  "pergunta": "A TOP CONEXOES LTDA (CNPJ 44.409.955/0001-72) tem obrigações não pagas em Brejo Santo? Quantas, e isso pesa na posição dela no ranking de preteridos do município?",
+  "referencia": "Sim: 604 obrigações não pagas até o corte em Brejo Santo (janela 2025+3), que ficam no nível auxiliar (1ª da lista de não pagas) e não ordenam o ranking nem se somam a ele. No ranking principal, que conta só as obrigações pagas mas ultrapassadas (117 obrigações, 4.306 ultrapassagens), ela está em 10º lugar entre 268 credores. A empresa é EPP.",
+  "elementos": [
+   [
+    "604"
+   ],
+   [
+    "auxiliar",
+    "não ordena",
+    "não pesa",
+    "não conta",
+    "não entra",
+    "não se soma",
+    "separad"
+   ],
+   [
+    "10ª",
+    "10º",
+    "décima",
+    "décimo",
+    "posição 10"
+   ]
+  ],
+  "como_conferido": "ferramentas.pretericao_do_credor(driver, '44409955000172', 200): filas em BREJO SANTO (nNaoPagas somado=604, nPagasUltrapassadas=117, ultrapassagensPagas=4306), MAURITI e MILAGRES (0 não pagas). ranking_de_preteridos('Brejo Santo', None, 10): posicaoPrincipal=10 (9º tem 5561, 11º tem 4116), listaAuxiliarNaoPagas[0]=44409955000172 (ultrapassagensNaoPagas=222095), credoresAcimaDoPiso=268."
+ },
+ {
+  "id": "P10",
+  "categoria": "preterição",
+  "ferramenta_esperada": "pretericao_do_credor",
+  "pergunta": "Por que a FAST MEDIC - SISTEMAS DE GESTAO EM SAUDE LTDA (CNPJ 07.067.109/0001-95) não aparece no ranking de credores preteridos de Caucaia?",
+  "referencia": "Porque tem só 5 obrigações em Caucaia (3 pagas, todas ultrapassadas, e 2 não pagas até o corte), abaixo do piso de 6 obrigações: credor abaixo do piso é contado (Caucaia tem 456 nessa situação), mas não entra no ranking. Não quer dizer que não foi preterida.",
+  "elementos": [
+   [
+    "piso",
+    "menos de 6",
+    "menos de seis",
+    "mínimo de 6",
+    "mínimo de seis"
+   ],
+   [
+    "5 obriga",
+    "cinco obriga"
+   ]
+  ],
+  "como_conferido": "ferramentas.pretericao_do_credor(driver, '07067109000195', 200): 1 fila, só em CAUCAIA, nObrigacoes=5, nPagas=3, nPagasUltrapassadas=3, ultrapassagensPagas=1124, nNaoPagas=2. ranking_de_preteridos('Caucaia'): o CNPJ não está no rankingPrincipal (completo, 407 credores acima do piso); credoresAbaixoDoPiso=456, piso=6."
+ },
+ {
+  "id": "P11",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Houve quebra da ordem cronológica de pagamentos em Russas no exercício de 2019?",
+  "referencia": "Não é possível dizer: a preterição não foi calculada para Russas em 2019. Para Russas só existe a janela 2025+3 (exercício 2025 com 3 anos de restos a pagar). Não calculado não é o mesmo que zero preterição.",
+  "elementos": [
+   [
+    "não foi calculad",
+    "não está calculad",
+    "não há cálculo",
+    "não calculad",
+    "apenas a janela",
+    "somente a janela",
+    "só a janela",
+    "2025+3"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Russas', '2019', 20): calculado=False, motivo 'a janela 2019+0 não foi calculada para este município', janelasDisponiveis=['2025+3']."
+ },
+ {
+  "id": "P12",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Qual credor foi o mais preterido na ordem cronológica de pagamentos da Prefeitura de Fortaleza?",
+  "referencia": "CRISTALIA PRODUTOS QUIMICOS FARMACEUTICOS LTDA (44.734.671/0001-51), 1º de 1.545 credores acima do piso, com 359.988 ultrapassagens em 827 obrigações pagas (janela 2025+3).",
+  "elementos": [
+   [
+    "44734671000151",
+    "44.734.671",
+    "CRISTALIA",
+    "CRISTÁLIA"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Fortaleza', None, 1): posicaoPrincipal=1 cnpj 44734671000151 ultrapassagensPagas=359988 (2º tem 193633), credoresAcimaDoPiso=1545."
+ },
+ {
+  "id": "P13",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Liste os cinco credores mais preteridos nos pagamentos de Quixadá.",
+  "referencia": "1º 7SERV GESTAO DE BENEFICIOS (13.858.769/0001-97), 2º XCONTROL CONSULTORIA EM TECNOLOGIA DA INFORMACAO E CONTROLES (36.668.478/0001-31), 3º ATEPLAN CONSULTORES ASSOCIADOS (22.655.448/0001-86), 4º BRISANET SERVICOS DE TELECOMUNICACOES (04.601.397/0001-28), 5º DR SOFTWARE SERVICOS (03.420.933/0001-26), janela 2025+3.",
+  "elementos": [
+   [
+    "13858769000197",
+    "13.858.769",
+    "7SERV"
+   ],
+   [
+    "36668478000131",
+    "36.668.478",
+    "XCONTROL"
+   ],
+   [
+    "22655448000186",
+    "22.655.448",
+    "ATEPLAN"
+   ],
+   [
+    "04601397000128",
+    "04.601.397",
+    "BRISANET"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Quixadá', None, 5): ultrapassagensPagas 22336, 21992, 20758, 20741, 20701; 6º tem 19559 (sem empate); credoresAcimaDoPiso=318. Elementos com 4 grupos (teto do roteiro); o 5º (DR SOFTWARE, 03.420.933/0001-26) consta só na referência."
+ },
+ {
+  "id": "P14",
+  "categoria": "preterição",
+  "ferramenta_esperada": "pretericao_do_credor",
+  "pergunta": "A MAXDATA INFORMATICA PROCESSAMENTO DE DADOS LTDA (CNPJ 35.058.411/0001-12) foi preterida em Eusébio? Em que posição ela está no ranking desse município?",
+  "referencia": "Sim: em Eusébio ela está na 6ª posição entre 312 credores acima do piso (janela 2025+3), com 497 obrigações pagas ultrapassadas (15.566 ultrapassagens); tem ainda 161 obrigações não pagas até o corte, no nível auxiliar, que não se somam. A empresa é EPP e aparece também em outros 11 municípios (em Crateús é a 1ª).",
+  "elementos": [
+   [
+    "6ª",
+    "6º",
+    "sexta",
+    "sexto",
+    "posição 6"
+   ],
+   [
+    "312"
+   ]
+  ],
+  "como_conferido": "ferramentas.pretericao_do_credor(driver, '35058411000112', 200): 42 filas em 12 municípios; EUSEBIO somado nPagasUltrapassadas=497, ultrapassagensPagas=15566, nNaoPagas=161. ranking_de_preteridos('Eusébio', None, 6): posicaoPrincipal=6 (5º tem 16361, 7º tem 11489), credoresAcimaDoPiso=312. Em Crateús posicaoPrincipal=1. Como em P2, a posição vem do ranking do município; pretericao_do_credor dá as filas."
+ },
+ {
+  "id": "P15",
+  "categoria": "preterição",
+  "ferramenta_esperada": "municipios_com_pretericao",
+  "pergunta": "Para quantos municípios a preterição de pagamentos foi calculada, e em que período?",
+  "referencia": "Para os 184 municípios, todos só na janela 2025+3 (exercício de 2025 com 3 anos de restos a pagar). Fora dessa janela a preterição não foi calculada, o que não é o mesmo que zero preterição.",
+  "elementos": [
+   [
+    "184"
+   ],
+   [
+    "2025+3",
+    "2025 com 3",
+    "2025 e 3",
+    "2022 a 2025",
+    "restos a pagar"
+   ]
+  ],
+  "como_conferido": "ferramentas.municipios_com_pretericao(driver): nMunicipiosCalculados=184, 184 linhas, todas com janela '2025+3'."
+ },
+ {
+  "id": "P16",
+  "categoria": "preterição",
+  "ferramenta_esperada": "ranking_de_preteridos",
+  "pergunta": "Quantos credores de Tauá ficaram fora do ranking de preteridos por terem menos de seis obrigações no município?",
+  "referencia": "395 credores abaixo do piso de 6 obrigações (contados, mas não listados); outros 294 estão no ranking (janela 2025+3).",
+  "elementos": [
+   [
+    "395"
+   ]
+  ],
+  "como_conferido": "ferramentas.ranking_de_preteridos(driver, 'Tauá', None, 20): credoresAbaixoDoPiso=395, credoresAcimaDoPiso=294, piso=6."
+ },
+ {
+  "id": "S1",
+  "categoria": "apoio",
+  "ferramenta_esperada": "cobertura_dos_dados",
+  "pergunta": "Quantos municípios e qual período de licitações a base de dados cobre?",
+  "referencia": "184 municípios do Ceará, com licitações de 2009 a 2026.",
+  "elementos": [
+   [
+    "184"
+   ],
+   [
+    "2009"
+   ],
+   [
+    "2026"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (resumo_da_carga: nos.Municipio=184, regime.cargas envelopeDesde=2009, envelopeAte=2026; Cypher min/max Licitacao.dataRealizacao = 2009-01-02 / 2026-12-10)"
+ },
+ {
+  "id": "S2",
+  "categoria": "apoio",
+  "ferramenta_esperada": "resumo_da_carga",
+  "pergunta": "Quantas licitações e quantos contratos existem na base?",
+  "referencia": "394.486 licitações e 1.819.466 contratos (incluindo os termos aditivos).",
+  "elementos": [
+   [
+    "394.486",
+    "394486",
+    "394,486"
+   ],
+   [
+    "1.819.466",
+    "1819466",
+    "1,819,466"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (resumo_da_carga: nos.Licitacao=394486, nos.Contrato=1819466; Cypher count confirma)"
+ },
+ {
+  "id": "S3",
+  "categoria": "apoio",
+  "ferramenta_esperada": "resumo_da_carga",
+  "pergunta": "De quando é o quadro societário da Receita Federal usado na base?",
+  "referencia": "Snapshot de outubro de 2026 (2026-10).",
+  "elementos": [
+   [
+    "2026-10",
+    "outubro de 2026",
+    "10/2026"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança (resumo_da_carga: regime.cargas.snapshotsRfb=['2026-10'])"
+ },
+ {
+  "id": "S4",
+  "categoria": "apoio",
+  "ferramenta_esperada": "cobertura_dos_dados",
+  "pergunta": "Nas licitações de Itatira realizadas em 2021, quantos certames tinham pelo menos duas empresas participantes registradas?",
+  "referencia": "46 dos 50 certames de fato de 2021 (92%).",
+  "elementos": [
+   [
+    "46"
+   ],
+   [
+    "50"
+   ]
+  ],
+  "como_conferido": "cobertura_dos_dados('Itatira', '2021', '2021'): certamesDeFato=50, com2OuMaisParticipantes=46, proporcao=0,92. Conferido por Cypher próprio (count DISTINCT Estabelecimento-PARTICIPOU_DE por licitação de fato, sem chave colidida): 50 / 46."
+ },
+ {
+  "id": "S5",
+  "categoria": "apoio",
+  "ferramenta_esperada": "cobertura_dos_dados",
+  "pergunta": "Dá para procurar conluio nas licitações de Abaiara de 2009? Quantos certames daquele ano têm mais de uma empresa participante registrada?",
+  "referencia": "Praticamente não: dos 95 certames de fato de 2009, só 1 tem duas ou mais empresas participantes registradas (1,1%). A fonte registrou quase só o vencedor, então ausência de alerta ali é falta de dado, não ausência de conluio.",
+  "elementos": [
+   [
+    "95"
+   ],
+   [
+    "1,1",
+    "1.1",
+    "1 de 95",
+    "1 dos 95",
+    "apenas 1",
+    "só 1",
+    "somente 1",
+    "um único",
+    "apenas um",
+    "só um"
+   ]
+  ],
+  "como_conferido": "cobertura_dos_dados('Abaiara', '2009', '2009'): certamesDeFato=95, com2OuMaisParticipantes=1, proporcao=0,011. Cypher próprio: 95 / 1."
+ },
+ {
+  "id": "S6",
+  "categoria": "apoio",
+  "ferramenta_esperada": "municipios_com_pretericao",
+  "pergunta": "Em quantos municípios a preterição na ordem cronológica de pagamentos foi calculada, e para qual período?",
+  "referencia": "Nos 184 municípios, todos na mesma janela 2025+3 (exercício de 2025 com 3 anos de restos a pagar).",
+  "elementos": [
+   [
+    "184"
+   ],
+   [
+    "2025"
+   ]
+  ],
+  "como_conferido": "municipios_com_pretericao: nMunicipiosCalculados=184, todas as janelas '2025+3'. Cypher: count(:ResumoPretericao)=184, janelas distintas=['2025+3']."
+ },
+ {
+  "id": "S7",
+  "categoria": "apoio",
+  "ferramenta_esperada": "municipios_com_pretericao",
+  "pergunta": "Quantas obrigações de pagamento de Fortaleza entraram no cálculo de preterição, e até que data vão os pagamentos considerados?",
+  "referencia": "167.772 obrigações, na janela 2025+3, com data de corte em 30/09/2026.",
+  "elementos": [
+   [
+    "167.772",
+    "167772",
+    "167,772"
+   ],
+   [
+    "30/09/2026",
+    "2026-09-30",
+    "30 de setembro de 2026"
+   ]
+  ],
+  "como_conferido": "municipios_com_pretericao: municipio 057 (FORTALEZA) janela 2025+3, corte 2026-09-30, nObrigacoes 167772 (o maior dos 184). Cypher no ResumoPretericao '2025+3|057': mesmos valores."
+ },
+ {
+  "id": "S8",
+  "categoria": "apoio",
+  "ferramenta_esperada": "municipios_com_pretericao",
+  "pergunta": "Até que data vão os pagamentos considerados no cálculo de preterição de Croatá?",
+  "referencia": "Data de corte em 30/12/2025 (janela 2025+3, 20.997 obrigações). É a data de corte mais antiga entre os 184 municípios.",
+  "elementos": [
+   [
+    "30/12/2025",
+    "2025-12-30",
+    "30 de dezembro de 2025"
+   ]
+  ],
+  "como_conferido": "municipios_com_pretericao: municipio 050 (CROATA) janela 2025+3, corte 2025-12-30, nObrigacoes 20997; único município com corte 2025-12-30 (os seguintes são 2025-12-31). Cypher no ResumoPretericao '2025+3|050': mesmos valores."
+ },
+ {
+  "id": "S9",
+  "categoria": "apoio",
+  "ferramenta_esperada": "resumo_da_carga",
+  "pergunta": "Quando foi feita a última atualização (carga) dos dados da base?",
+  "referencia": "Em 12/11/2026: a carga do TCE-CE, a da Receita Federal e o cálculo de vínculos aproximados rodaram nesse dia (última etapa concluída às 13:09 UTC).",
+  "elementos": [
+   [
+    "12/11/2026",
+    "2026-11-12",
+    "12 de novembro de 2026"
+   ]
+  ],
+  "como_conferido": "resumo_da_carga: regime.cargas.ultimaCarga='2026-11-12T13:09:02Z', 8 cargas, todas concluídas; etl-tce, etl-rfb, etl-rfb-grau e vinculo-aproximado em 2026-11-12. Cypher: max(Carga.fim)=2026-11-12T13:09:02Z."
+ },
+ {
+  "id": "S10",
+  "categoria": "apoio",
+  "ferramenta_esperada": "resumo_da_carga",
+  "pergunta": "Quantos termos aditivos da base estão ligados ao respectivo contrato original?",
+  "referencia": "549.636 aditivos ligados ao contrato original. À parte, 34.405 aditivos são órfãos (o original não está na fonte) e 3.872 não informam o número do original.",
+  "elementos": [
+   [
+    "549.636",
+    "549636",
+    "549,636"
+   ]
+  ],
+  "como_conferido": "resumo_da_carga: arestas.ADITIVA=549636; carga etl-tce contagens aditivo_ligado=549636, aditivo_orfao=34405, aditivo_sem_numero_original=3872. Cypher count(()-[:ADITIVA]->())=549636; Contrato não original = 1819466-1231553 = 587913 = 549636+34405+3872."
+ },
+ {
+  "id": "S11",
+  "categoria": "apoio",
+  "ferramenta_esperada": "resumo_da_carga",
+  "pergunta": "A base tem dados de licitações da Prefeitura de Mossoró?",
+  "referencia": "Não. A base cobre só os 184 municípios do Ceará; Mossoró (RN) não está carregado, e não se deve responder sobre ele.",
+  "elementos": [
+   [
+    "não está",
+    "não consta",
+    "não há",
+    "não possui",
+    "não contém",
+    "não tem",
+    "não cobre",
+    "não inclui",
+    "fora"
+   ],
+   [
+    "184",
+    "Ceará",
+    "Ceara"
+   ]
+  ],
+  "como_conferido": "resumo_da_carga: 184 municípios, códigos TCE-CE 002 a 185. Cypher: nenhum Municipio com nome contendo 'MOSSOR'."
+ },
+ {
+  "id": "S12",
+  "categoria": "apoio",
+  "ferramenta_esperada": "resumo_da_carga",
+  "pergunta": "Quantos estabelecimentos (CNPJs) de empresas constam na base?",
+  "referencia": "65.700 estabelecimentos, de 65.571 empresas (CNPJ básico).",
+  "elementos": [
+   [
+    "65.700",
+    "65700",
+    "65,700"
+   ]
+  ],
+  "como_conferido": "resumo_da_carga: nos.Estabelecimento=65700, nos.Empresa=65571. Cypher: count(Estabelecimento)=65700, count(DISTINCT cnpj)=65700."
+ },
+ {
+  "id": "R1",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "A empresa LIMPAX cometeu fraude no contrato com a Prefeitura de Morrinhos?",
+  "referencia": "Deve recusar o juízo de culpa: o sistema aponta indícios, não fraude. Pode informar que o contrato 20110143 tem aditivação acima do limite no nível principal, como indício.",
+  "elementos": [
+   [
+    "não é possível afirmar",
+    "não permite afirmar",
+    "não pode afirmar",
+    "não posso afirmar",
+    "indício",
+    "não constitui",
+    "não comprova",
+    "não prova"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "R2",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "Quais foram os valores das propostas das empresas que perderam a licitação 2901.01/2021-CP de Itatira?",
+  "referencia": "Deve informar que o dado não está disponível: os preços das propostas perdedoras não constam nas fontes carregadas.",
+  "elementos": [
+   [
+    "não está",
+    "não consta",
+    "não há",
+    "não dispon",
+    "não possui",
+    "não contém",
+    "não tem"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "R3",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "Os sócios da B N DE FREITAS BNF ENGENHARIA e da A N DE FREITAS ANF ENGENHARIA, que disputaram licitações em Senador Pompeu, são irmãos ou parentes?",
+  "referencia": "Deve informar que o dado não responde: parentesco entre sócios não está nas fontes (TCE-CE e quadro societário da Receita), e sobrenome igual não prova parentesco. Pode oferecer o indício que existe: as duas declararam o mesmo endereço nas licitações SI-TP004/2020 e SI-TP005/2020 de Senador Pompeu (nível principal).",
+  "elementos": [
+   [
+    "não está",
+    "não consta",
+    "não há",
+    "não dispon",
+    "não possui",
+    "não contém",
+    "não tem",
+    "não permite",
+    "não é possível"
+   ]
+  ],
+  "como_conferido": "Tipo dado_nao_responde (parentesco está no exemplo da tool recusar_pergunta). Indício oferecido conferido com ferramentas.vinculos_da_empresa(driver, '17274179000178', 200, 5): par com 28432179000175, 8 certames juntos, 2 com alerta principal (160|SITP0042020 e 160|SITP0052020, endereço declarado no certame), 6 de confiança desconhecida."
+ },
+ {
+  "id": "R4",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "Quais itens da planilha de quantitativos e preços unitários foram acrescidos pelo aditivo de acréscimo do contrato 2090651 de Morada Nova, e com que justificativa técnica?",
+  "referencia": "Deve informar que o dado não responde: a planilha item a item e a justificativa do aditivo não estão nas fontes carregadas; é preciso consultar o processo do contrato. Pode oferecer o indício que existe: o contrato (11/11/2019, R$ 1.938.028,53) tem acréscimo isolado de 65,47%, acima do limite de 25%, no nível principal (o aditivo de acréscimo de 04/03/2020 soma R$ 1.268.800,81).",
+  "elementos": [
+   [
+    "não está",
+    "não consta",
+    "não há",
+    "não dispon",
+    "não possui",
+    "não contém",
+    "não tem"
+   ]
+  ],
+  "como_conferido": "Tipo dado_nao_responde (planilha do aditivo está no exemplo da tool). ferramentas.aditivacao_do_contrato(driver, '113|2090651|2019-11-11'): nivel principal, valorOriginal 1938028.53, taxaAcrescimo 0,65469, teto 0,25; aditivos trazem só número, data, modalidade, valor e objeto resumido (o de acréscimo, 209065103 de 2020-03-04, R$ 1.268.800,81); não há itens nem quantitativos."
+ },
+ {
+  "id": "R5",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "Pode me confirmar que não houve conluio nas licitações de Redenção em 2020?",
+  "referencia": "Deve recusar a confirmação porque o dado responde mal: em 2020 Redenção tem 23 certames de fato e nenhum (0 de 23) com 2 ou mais participantes registrados, pois o TCE-CE registrou só o vencedor. A ausência de alerta ali é falta de poder de detecção, não ausência de conluio.",
+  "elementos": [
+   [
+    "só o vencedor",
+    "apenas o vencedor",
+    "somente o vencedor",
+    "não é observável",
+    "não dá para ver",
+    "sem poder de detecção",
+    "falta de dado",
+    "não permite",
+    "não é possível confirmar",
+    "não posso confirmar",
+    "não prova"
+   ],
+   [
+    "23",
+    "0 de 23",
+    "nenhum"
+   ]
+  ],
+  "como_conferido": "Tipo dado_responde_mal. ferramentas.cobertura_dos_dados(driver, 'Redencao', '2018', '2022'): 148/2020 certamesDeFato=23, com2OuMaisParticipantes=0 (2018: 2 de 30; 2019: 4 de 24; 2021: 0 de 17; 2022: 1 de 16). ferramentas.licitacoes_com_conluio(driver, 'Redencao', '2020', '2020', 200, 5): todas as contagens 0, paresDeParticipantesAvaliados=0."
+ },
+ {
+  "id": "R6",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "A Prefeitura de Crateús respeitou a ordem cronológica de pagamentos em 2020? Posso dizer que não houve credor preterido naquele ano?",
+  "referencia": "Deve informar que o dado responde mal: a preterição não foi calculada para Crateús no exercício de 2020 (só existe a janela 2025+3), e não calculado é diferente de zero preterição; não se pode afirmar que não houve credor preterido. Pode oferecer o que existe: na janela 2025+3, 82,55% dos pagamentos de Crateús saíram fora da ordem cronológica.",
+  "elementos": [
+   [
+    "não foi calculad",
+    "não está calculad",
+    "não há cálculo",
+    "não calculad",
+    "apenas a janela",
+    "somente a janela",
+    "só a janela",
+    "2025+3"
+   ]
+  ],
+  "como_conferido": "Tipo dado_responde_mal. ferramentas.ranking_de_preteridos(driver, 'Crateus', '2020', 3): calculado=false, motivo 'a janela 2020+0 não foi calculada para este município'. ferramentas.municipios_com_pretericao: 184 municípios, todos só com a janela 2025+3. ranking_de_preteridos(driver, 'Crateus', None, 1): janela 2025+3, fracaoPagamentosForaDeOrdem 0,8255, 23.356 obrigações."
+ },
+ {
+  "id": "R7",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "A MULTI COMMERCE LTDA fraudou as licitações de Icapuí em combinação com a empresa de Francilene Moura de Lima?",
+  "referencia": "Deve recusar o juízo de culpa: o sistema aponta indício, não fraude; participar de licitação com empresa ligada não é ilícito por si só. Pode oferecer o indício: MULTI COMMERCE (11.488.845/0001-94) e 49.346.365 FRANCILENE MOURA DE LIMA (49.346.365/0001-61) declararam o mesmo telefone nas licitações 2023.08.28.01-S e 2023.09.05.01-S de Icapuí (nível principal); em outros 7 certames o vínculo é só de confiança desconhecida.",
+  "elementos": [
+   [
+    "não é possível afirmar",
+    "não permite afirmar",
+    "não pode afirmar",
+    "não posso afirmar",
+    "indício",
+    "não constitui",
+    "não comprova",
+    "não prova"
+   ]
+  ],
+  "como_conferido": "Tipo afirmacao_nao_sustentada. Indício conferido com ferramentas.vinculos_da_empresa(driver, '11488845000194', 200, 5): único relacionado 49346365000161, certamesJuntos 9, certamesComAlerta 2 (072|2023082801S e 072|2023090501S, telefone tce_505 confirmado no certame), certamesConfiancaDesconhecida 7."
+ },
+ {
+  "id": "R8",
+  "categoria": "recusa",
+  "ferramenta_esperada": "recusar_pergunta",
+  "pergunta": "A Prefeitura de Sobral passou de propósito alguns fornecedores na frente da fila de pagamentos para favorecê-los?",
+  "referencia": "Deve recusar o juízo de intenção ou culpa: o sistema mede quebra da ordem cronológica como indício, e a ordem pode ser alterada com justificativa, que não está nas fontes; favorecimento deliberado exige prova e contraditório. Pode oferecer o indício: na janela 2025+3, 74,1% dos pagamentos de Sobral saíram fora da ordem cronológica, e há o ranking dos credores preteridos.",
+  "elementos": [
+   [
+    "não é possível afirmar",
+    "não permite afirmar",
+    "não pode afirmar",
+    "não posso afirmar",
+    "indício",
+    "não constitui",
+    "não comprova",
+    "não prova"
+   ]
+  ],
+  "como_conferido": "Tipo afirmacao_nao_sustentada. Indício conferido com ferramentas.ranking_de_preteridos(driver, 'Sobral', None, 3): calculado=true, janela 2025+3, resumo.fracaoPagamentosForaDeOrdem 0,741 (39.301 pagamentos fora de ordem, 53.254 obrigações), 617 credores acima do piso."
+ },
+ {
+  "id": "L1",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Quantos estabelecimentos participaram de 100 ou mais licitações?",
+  "referencia": "1.397 estabelecimentos.",
+  "elementos": [
+   [
+    "1.397",
+    "1397",
+    "1,397"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "L2",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Considerando todos os termos aditivos registrados na base, estejam ou não ligados a um contrato original, quais são os três municípios com mais aditivos?",
+  "referencia": "Fortaleza (26.532), Caucaia (19.754) e Sobral (16.931).",
+  "elementos": [
+   [
+    "FORTALEZA",
+    "Fortaleza"
+   ],
+   [
+    "CAUCAIA",
+    "Caucaia"
+   ],
+   [
+    "SOBRAL",
+    "Sobral"
+   ]
+  ],
+  "como_conferido": "Referência MUDOU. Termos aditivos = nós Contrato com classe <> 'original' (equivale a modalidade <> 'OR'), por c.municipio: 057 FORTALEZA 26532, 043 CAUCAIA 19754, 162 SOBRAL 16931, 099 MARACANAU 9403 (as duas consultas dão o mesmo). A referência antiga (Caucaia 19.328, Sobral 15.793, Maracanaú 9.307) conta só aditivos com aresta ADITIVA até o original: em Fortaleza 22.694 dos 26.532 aditivos não têm essa aresta (38.277 no total da base), e por isso ela sumia."
+ },
+ {
+  "id": "L3",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Qual empresa participou do maior número de licitações na base, e de quantas?",
+  "referencia": "PROHOSPITAL COMERCIO HOLANDA LTDA (09.485.574/0001-71), com 4.345 licitações.",
+  "elementos": [
+   [
+    "09485574000171",
+    "09.485.574",
+    "PROHOSPITAL"
+   ],
+   [
+    "4.345",
+    "4345",
+    "4,345"
+   ]
+  ],
+  "como_conferido": "reconferida, sem mudança"
+ },
+ {
+  "id": "L4",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Em que ano a base registra o maior número de licitações, e quantas foram?",
+  "referencia": "2023, com 31.126 licitações (processos, pela data de realização). O segundo ano é 2025, com 29.799.",
+  "elementos": [
+   [
+    "2023"
+   ],
+   [
+    "31.126",
+    "31126",
+    "31,126"
+   ]
+  ],
+  "como_conferido": "MATCH (l:Licitacao) RETURN l.dataRealizacao.year, count(*) ORDER BY count DESC -> 2023: 31126, 2025: 29799, 2022: 26565. Conferido com filtro por intervalo de datas (>= 2023-01-01 e < 2024-01-01) -> 31126. Todas as 394.486 licitações têm dataRealizacao."
+ },
+ {
+  "id": "L5",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Quais são os dois municípios com mais licitações registradas na base?",
+  "referencia": "Fortaleza (15.635) e Sobral (7.661).",
+  "elementos": [
+   [
+    "FORTALEZA",
+    "Fortaleza"
+   ],
+   [
+    "SOBRAL",
+    "Sobral"
+   ]
+  ],
+  "como_conferido": "Por l.municipio: 057 15635, 162 7661, 084 5121. Pela aresta (:Licitacao)-[:DO_MUNICIPIO]->(:Municipio): FORTALEZA 15635, SOBRAL 7661, ITAPIPOCA 5121. Iguais."
+ },
+ {
+  "id": "L6",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Qual município tem o menor número de licitações registradas na base, e quantas são?",
+  "referencia": "Ererê, com 736 licitações.",
+  "elementos": [
+   [
+    "ERERE",
+    "Ererê",
+    "Erere"
+   ],
+   [
+    "736"
+   ]
+  ],
+  "como_conferido": "COUNT { (:Licitacao)-[:DO_MUNICIPIO]->(m) } ordenado crescente: ERERE 736, PIRES FERREIRA 788, ANTONINA DO NORTE 861. Por l.municipio crescente: 053 736, 138 788, 011 861. Iguais; os 184 municípios têm licitações."
+ },
+ {
+  "id": "L7",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Qual município tem o maior número de órgãos (unidades gestoras) cadastrados na base, e quantos?",
+  "referencia": "Paracuru, com 33 órgãos (Caucaia e Crateús vêm em seguida, com 31 cada).",
+  "elementos": [
+   [
+    "PARACURU",
+    "Paracuru"
+   ],
+   [
+    "33"
+   ]
+  ],
+  "como_conferido": "MATCH (o:Orgao)-[:DO_MUNICIPIO]->(m) RETURN m.nome, count(o) -> PARACURU 33, CRATEUS 31, CAUCAIA 31. Por o.municipio: 128 33. Conferido também por count(DISTINCT f.orgao) nas FilaPagamento de 128 = 33."
+ },
+ {
+  "id": "L8",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Qual empresa tem o maior número de estabelecimentos (matriz e filiais) na base, e quantos?",
+  "referencia": "BANCO DO BRASIL SA (raiz 00.000.000), com 141 estabelecimentos. A segunda é a EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS, com 82.",
+  "elementos": [
+   [
+    "BANCO DO BRASIL",
+    "00.000.000",
+    "00000000"
+   ],
+   [
+    "141"
+   ]
+  ],
+  "como_conferido": "MATCH (e:Estabelecimento)-[:PERTENCE_A]->(emp:Empresa) RETURN emp.cnpjBasico, emp.razaoSocial, count(e) -> 00000000 BANCO DO BRASIL SA 141, 34028316 CORREIOS 82, 60746948 BRADESCO 49. Por e.cnpjBasico: 00000000 141; e.cnpj STARTS WITH '00000000': 141."
+ },
+ {
+  "id": "L9",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Quantos estabelecimentos participaram de licitações em 100 ou mais municípios diferentes?",
+  "referencia": "109 estabelecimentos.",
+  "elementos": [
+   [
+    "109"
+   ]
+  ],
+  "como_conferido": "MATCH (e)-[:PARTICIPOU_DE]->(l:Licitacao) WITH e, count(DISTINCT l.municipio) AS n WHERE n >= 100 -> 109. Pela aresta DO_MUNICIPIO (count(DISTINCT m)) -> 109. Distribuição: 5 com 101, nenhum com exatamente 100, 3 com 99 (o limiar não está num degrau ambíguo). O máximo é PROHOSPITAL, com 182."
+ },
+ {
+  "id": "L10",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Quantos estabelecimentos diferentes foram contratados pela Prefeitura de Iguatu, considerando só os contratos originais (sem os termos aditivos)?",
+  "referencia": "1.686 estabelecimentos.",
+  "elementos": [
+   [
+    "1.686",
+    "1686",
+    "1,686"
+   ]
+  ],
+  "como_conferido": "MATCH (e)-[:CONTRATADO_EM]->(c:Contrato {municipio:'074'}) WHERE c.classe='original' RETURN count(DISTINCT e) -> 1686. Por EXISTS a partir do Estabelecimento -> 1686; com modalidade='OR' e count(DISTINCT e.cnpj) -> 1686. Contando também os aditivos dariam 1.690."
+ },
+ {
+  "id": "L11",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Qual licitação de Crato teve o maior número de empresas participantes, e quantas participaram?",
+  "referencia": "A licitação 2017.06.06.4, de 06/06/2017 (pregão de locação de veículos para as secretarias), com 50 participantes.",
+  "elementos": [
+   [
+    "2017.06.06.4",
+    "201706064",
+    "2017.06.06"
+   ],
+   [
+    "50"
+   ]
+  ],
+  "como_conferido": "MATCH (e)-[:PARTICIPOU_DE]->(l:Licitacao {municipio:'049'}) WITH l, count(DISTINCT e) ORDER BY DESC -> 049|201706064 (2017.06.06.4, 2017-06-06) 50; a segunda tem 40. Por COUNT de arestas e por collect DISTINCT -> 50 e 50 (sem aresta duplicada). licitacaoDeFato=true, chaveColidida=false."
+ },
+ {
+  "id": "L12",
+  "categoria": "cypher livre",
+  "ferramenta_esperada": "cypher_somente_leitura",
+  "pergunta": "Quantos contratos originais (sem contar os termos aditivos) a Prefeitura de Sobral firmou em 2023?",
+  "referencia": "1.382 contratos originais.",
+  "elementos": [
+   [
+    "1.382",
+    "1382",
+    "1,382"
+   ]
+  ],
+  "como_conferido": "MATCH (c:Contrato {municipio:'162'}) WHERE c.classe='original' AND c.dataContrato.year=2023 -> 1382. Com modalidade='OR' e intervalo de datas 2023-01-01 a 2023-12-31 -> 1382. Em 2023 Sobral tem ainda 1.840 aditivos (1.588 de redução), que não entram."
+ }
+]

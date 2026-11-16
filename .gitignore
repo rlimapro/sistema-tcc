@@ -1,0 +1,30 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Dados e saídas locais (nunca versionados)
+data/
+neo4j-data-v3/
+*.log
+benchmark/saida/
+
+# Saídas da carga (scripts/carga_completa.sh)
+logs/
+resultados/
+
+# Documentação interna de desenvolvimento e acompanhamento (fica só local; o README.md é o documento público)
+docs/
+ENTREGA.md
+CLAUDE.md
+.claude/
